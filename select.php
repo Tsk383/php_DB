@@ -34,8 +34,8 @@ $output = "";
 foreach ($result as $record) {
   $output .= "
     <tr>
-      <td>{$record["name"]}</td>
-      <td>{$record["money"]}</td>
+      <td>{$record["item"]}</td>
+      <td>{$record["price"]}</td>
       <td>{$record["date"]}</td>
     </tr>
   ";
@@ -59,8 +59,8 @@ foreach ($result as $record) {
     <table>
       <thead>
         <tr>
-          <th>name</th>
-          <th>money</th>
+          <th>item</th>
+          <th>price</th>
           <th>date</th>
         </tr>
       </thead>

@@ -13,10 +13,10 @@
       <legend>家計簿アプリDB版（入力画面）</legend>
       <a href="select.php">一覧画面</a>
       <div>
-        name: <input type="text" name="name">
+        item: <input type="text" name="item">
       </div>
       <div>
-        money: <input type="int" name="money"> yen
+        price: <input type="int" name="price"> yen
       </div>
       <div>
         date: <input type="date" name="date">
